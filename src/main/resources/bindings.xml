@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<jaxws:bindings
+        wsdlLocation="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL"
+        xmlns:jaxws="http://java.sun.com/xml/ns/jaxws">
+    <!-- https://stackoverflow.com/a/43560882/49489 -->
+    <jaxws:enableAsyncMapping>true</jaxws:enableAsyncMapping>
+</jaxws:bindings>
